@@ -42,3 +42,15 @@ footer {
 .call-button:hover {
     background: #1f5fb8;
 }
+form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+button {
+    margin-top: 10px;
+}

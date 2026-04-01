@@ -41,10 +41,47 @@
 
 <section>
   <section>
+  <h2>Contact Us</h2>
+
   <p><strong>Phone:</strong> <a href="tel:8597778830">(859) 777-8830</a></p>
-<p><strong>Email:</strong> <a href="mailto:info@bethelhomecareusa.com">info@bethelhomecareusa.com</a></p>
-<p><strong>Address:</strong> 6415 Evergreen Court, Mason, OH 45040</p>
-<p><a class="call-button" href="tel:8597778830">Call Now</a>
+  <p><strong>Email:</strong> <a href="mailto:info@bethelhomecareusa.com">info@bethelhomecareusa.com</a></p>
+  <p><strong>Address:</strong> 6415 Evergreen Court, Mason, OH 45040</p>
+
+  <p><a class="call-button" href="tel:8597778830">Call Now</a></p>
+
+  <h3>Request Care Information</h3>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="hidden" name="form-name" value="contact">
+
+    <p>
+      <label>Full Name<br>
+        <input type="text" name="name" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Phone Number<br>
+        <input type="tel" name="phone" required>
+      </label>
+    </p>
+
+    <p>
+      <label>Email Address<br>
+        <input type="email" name="email">
+      </label>
+    </p>
+
+    <p>
+      <label>Message<br>
+        <textarea name="message" rows="5" required></textarea>
+      </label>
+    </p>
+
+    <p>
+      <button type="submit">Request Care Now</button>
+    </p>
+  </form>
+</section>
 
   <h3>Request Care Information</h3>
   <form name="contact" method="POST" data-netlify="true">
@@ -79,10 +116,7 @@
     </p>
   </form>
 </section>
-  <p><strong>Phone:</strong> <a href="tel:8597778830">(859) 777-8830</a></p>
-  <p><strong>Email:</strong> info@bethelhomecareusa.com</p>
-  <p><strong>Address:</strong> 6415 Evergreen Court, Mason, OH 45040</p>
-</section>
+  
 
 <footer>
   <p>© 2026 Bethel Home Healthcare LLC</p>

@@ -41,16 +41,31 @@
 
 <section>
   <section>
-  <h2>Contact Us</h2>
-  <p><strong>Phone:</strong> <a href="tel:8597778830">8597778830</a></p>
-  <p><strong>Email:</strong> <a href="mailto:info@bethelhomecareusa.com">info@bethelhomecareusa.com</a></p>
-  <p><strong>Address:</strong> 6415 Evergreen Court, Mason, OH 45040</p>
+  <p><strong>Phone:</strong> <a href="tel:8597778830">(859) 777-8830</a></p>
+<p><strong>Email:</strong> <a href="mailto:info@bethelhomecareusa.com">info@bethelhomecareusa.com</a></p>
+<p><strong>Address:</strong> 6415 Evergreen Court, Mason, OH 45040</p>
+<p><a class="call-button" href="tel:8597778830">Call Now</a></p>
 
   <p><a class="call-button" href="tel:8597778830">Call Now</a></p>
 
   <h3>Request Care Information</h3>
   <form name="contact" method="POST" data-netlify="true">
-    <input type="hidden" name="form-name" value="contact" />
+  <input type="hidden" name="form-name" value="contact">
+
+  <label>Full Name</label>
+  <input type="text" name="name" required>
+
+  <label>Phone Number</label>
+  <input type="text" name="phone">
+
+  <label>Email Address</label>
+  <input type="email" name="email" required>
+
+  <label>Message</label>
+  <textarea name="message" required></textarea>
+
+  <button type="submit">Send Request</button>
+</form>
 
     <p>
       <label>Full Name<br>
@@ -77,11 +92,11 @@
     </p>
 
     <p>
-      <button type="submit">Send Request</button>
+      <button type="submit">Request Care Now</button>
     </p>
   </form>
 </section>
-  <p><strong>Phone:</strong>(859)7778830</p>
+  <p><strong>Phone:</strong> <a href="tel:8597778830">(859) 777-8830</a></p>
   <p><strong>Email:</strong> info@bethelhomecareusa.com</p>
   <p><strong>Address:</strong> 6415 Evergreen Court, Mason, OH 45040</p>
 </section>

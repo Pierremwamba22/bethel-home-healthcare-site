@@ -1,56 +1,82 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #f5f7fa;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
 }
 
 header {
-  background: #2c7be5;
-  color: white;
-  padding: 30px;
-  text-align: center;
+    background: #2e6fd1;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
 }
 
 section {
-  padding: 20px;
-  margin: 10px;
-  background: white;
-  border-radius: 8px;
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
 }
 
 h2 {
-  color: #2c7be5;
+    color: #2e6fd1;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #eee;
+ul {
+    padding-left: 20px;
 }
+
 .call-button {
-  display: inline-block;
-  background: #2c7be5;
-  color: white;
-  text-decoration: none;
-  padding: 12px 22px;
-  border-radius: 8px;
-  font-weight: bold;
-  margin: 10px 0 20px;
+    display: inline-block;
+    background: #2e6fd1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .call-button:hover {
-    background: #1f5fb8;
+    background: #1f52a3;
 }
+
 form {
-    max-width: 500px;
-    margin: 20px auto;
+    margin-top: 20px;
+}
+
+form p {
+    margin-bottom: 15px;
 }
 
 input, textarea {
     width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
 }
 
 button {
-    margin-top: 10px;
+    background: #2e6fd1;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1f52a3;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #e9edf3;
+    margin-top: 40px;
 }
